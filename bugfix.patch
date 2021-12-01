@@ -1,0 +1,28 @@
+From 670adf54835cf4477e653d8793900361e08428bd Mon Sep 17 00:00:00 2001
+From: ucfaea1 <ucfaea1@login12.myriad.ucl.ac.uk>
+Date: Wed, 1 Dec 2021 13:53:01 +0000
+Subject: [PATCH] Reorder data array.
+
+Signed-off-by: ucfaea1 <ucfaea1@login12.myriad.ucl.ac.uk>
+---
+ make_array.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/make_array.py b/make_array.py
+index e800191..3af60f6 100644
+--- a/make_array.py
++++ b/make_array.py
+@@ -14,8 +14,8 @@ print("Hello World")
+ 
+ # Create 2D array using np.arange that is 144 columns (longitudes)
+ # and 91 rows (latitudes):
+-nx=91
+-ny=144
++nx=144
++ny=91
+ data_array = np.arange(nx,ny)
+ 
+ # Exit the programme:
+-- 
+2.19.1
+
